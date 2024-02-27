@@ -28,13 +28,13 @@ nav a {
 
 }
 
-
+/* */
 main {
     padding: 20px;
 }
 footer {
     background-color: #000068;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -68,26 +68,14 @@ footer {
 }
 
 
-/* */
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
 
  body
  {
    margin: 0;
    padding: 0;
    
-   /* make it look decent enough */
    background: #232323;
-   color: #cdcdcd;
+   color: #ffffff;
    font-family: "Avenir Next", "Avenir", sans-serif;
  }
  
@@ -95,8 +83,8 @@ footer {
  {
    display: block;
    position: relative;
-   top: 50px;
-   left: 50px;
+   top: 0px;
+   left:  0px;
    
    z-index: 1;
    
@@ -107,14 +95,15 @@ footer {
  #menuToggle a
  {
    text-decoration: none;
-   color: #232323;
+   color: #ffffff;
    
    transition: color 0.3s ease;
  }
  
  #menuToggle a:hover
  {
-   color: tomato;
+   color: rgb(242, 234, 234);
+   text-decoration: underline;
  }
  
  
@@ -129,15 +118,12 @@ footer {
    
    cursor: pointer;
    
-   opacity: 0; /* hide this */
-   z-index: 2; /* and place it over the hamburger */
+   opacity: 0; 
+   z-index: 2; 
    
    -webkit-touch-callout: none;
  }
  
- /*
-  * Just a quick hamburger
-  */
  #menuToggle span
  {
    display: block;
@@ -146,7 +132,7 @@ footer {
    margin-bottom: 5px;
    position: relative;
    
-   background: #cdcdcd;
+   background: #ffffff;
    border-radius: 3px;
    
    z-index: -1;
@@ -193,12 +179,14 @@ footer {
  #menu
  {
    position: absolute;
-   width: 300px;
+   width: 200px;
    margin: -100px 0 0 -50px;
-   padding: 50px;
-   padding-top: 125px;
+   padding:-25px;
    
-   background: #ededed;
+   padding-top:   25px;
+   border-radius: 20px;
+   background: #001892;
+   color: white ;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
@@ -222,3 +210,11 @@ footer {
  {
    transform: none;
  }
+
+
+#half-menu{
+  text-decoration: none;
+  display: flex ;
+  padding: 5px;
+  margin: 5px;
+}
