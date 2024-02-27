@@ -19,7 +19,9 @@ header h1 {
 }
 nav {
     background-color: #000000;
-    padding: 20px;
+    padding: 8px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 nav a {
     color: #00007d;
@@ -124,12 +126,14 @@ footer {
    position: absolute;
    width: 150px;
    margin: -100px 0 0 -50px;
+  
+   text-align: center;
    
    
-   padding-top:   25px;
+   margin-top :   30px;
     border-radius: 20px;
    background: white;
-   color: rgb(0, 0, 0) ;
+   color: rgb(0, 0, 0) ;  
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
   
@@ -141,7 +145,7 @@ footer {
    
  }
  .hamb{
-  color: black;
+  color: rgb(0, 0, 0);
   
  }
  #menu li
@@ -174,17 +178,41 @@ footer {
 }
 
 #half-menu a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 25px;
 }
 
 #half-menu a:hover {
-  color: #ffcc00;
-}
-
-#half-menu {
-  display: none;
+  color: #ffffff;
 }
 
 
+.imgnews{
+  width: 500px;
+  height: auto;
+}
+.undernews{
+  border: #000000 20px;
+  border-style: solid;
+  width: 500  px;
+  margin: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.news{
+  display: flex;
+}
+
+#sponzori{
+  display: flex;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 2px;
+ 
+}
+.sponzor img{
+  width: 200px;
+  height: auto;
+  padding-right: 5px;
+}
