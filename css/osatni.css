@@ -226,7 +226,7 @@ footer {
       border-style: solid;
     width: 500px;
     margin: 10px;
-  
+    border-radius: 80px;
     margin-left: 1px;
     margin-right: 1px;
   
@@ -234,8 +234,12 @@ footer {
   }
   .hrac:hover{
     background-color: rgb(1, 42, 168);
-    border-radius: 20px;
-    border: white 10px;
+   border-radius: 80px;
+
+    background: #4568DC;  
+  background: -webkit-linear-gradient(to left, #00d9ff, #4568DC);  
+  background: linear-gradient(to left, #00d9ff, #4568DC); 
+
    
   } 
 
@@ -267,4 +271,14 @@ main h2{
   margin-right: 35%;
   border-radius: 80px;
  
+}
+.h3-hrac{
+  text-transform: uppercase;
+ 
+  
+}
+
+.foot-a{
+  color: white;
+  text-decoration: none;
 }
