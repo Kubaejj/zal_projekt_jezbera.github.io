@@ -302,8 +302,29 @@ th{
 table{
   text-align: center;
  
+ 
 }
 #mainkadr{
   display: flex;
   align-items: center;
+}
+.sekret{
+  align-items: center;
+  margin-left: 29%;
+}
+.info{
+  align-items: center;
+  
+}
+.info td{
+
+    padding-right: 300px;
+  
+}
+th{
+  background-color: #00008d;
+}
+.sekret2{
+  align-items: center;
+  margin-left: 28.5%;
 }
