@@ -282,3 +282,28 @@ main h2{
   color: white;
   text-decoration: none;
 }
+
+.kadr{
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 20px;
+}
+th{
+  font-weight: 900;
+}
+table{
+  text-align: center;
+ 
+}
+#mainkadr{
+  display: flex;
+  align-items: center;
+}
