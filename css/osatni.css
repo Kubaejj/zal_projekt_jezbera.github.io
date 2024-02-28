@@ -215,46 +215,6 @@ footer {
   padding-right: 5px;
 }
 
-/* ... */
-
-.nested {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: white;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  
-  .hamb:hover .nested {
-    display: block;
-  }
-  
-  .nested li {
-    padding: 5px 10px;
-    font-size: 18px;
-  }
-  
-  .nested a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-  .nested a:hover {
-    color: #00007d;
-  }
-  
-  /* ... */
-
-.nav2 ul li:hover .nested {
-    display: block;
-  }
-  
  
 
   .imghrac{
@@ -272,6 +232,13 @@ footer {
   
    
   }
+  .hrac:hover{
+    background-color: rgb(1, 42, 168);
+    border-radius: 20px;
+    border: white 10px;
+   
+  } 
+
   .hraci{
     display: flex;
     text-align: center;
@@ -279,12 +246,25 @@ footer {
     width: 100px;
     align-items: center;
     margin-left: 8%;
-  
-  
+
   }
 
 main h2{
     text-align: center;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pozice{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 28px;
+}
+.soupiska{
+  border: #e4dada 2px;
+  border-style: solid;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 80px;
+ 
 }
