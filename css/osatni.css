@@ -358,3 +358,17 @@ th{
 .sponzor{
   margin-left: 20px;
 }
+
+.historie{
+  display: flex;
+  text-align: center;
+ 
+  width: 100px;
+  align-items: center;
+  margin-left: 2%;
+}
+.historie-rok{
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
