@@ -21,7 +21,7 @@ nav {
     background-color: #000000;
     padding: 8px;
     margin-bottom: 1px;
-    margin-top: 1px;
+    margin-top: 0px;
 }
 nav a {
     color: #00007d;
@@ -79,11 +79,15 @@ footer {
    margin: 0;
    padding: 0;
    
-   background: #232323;
+   background: #282727;
    color: #ffffff;
    font-family: "Avenir Next", "Avenir", sans-serif;
 
    
+ }
+ .partneri {
+  background: #ffffff;
+  color: black;
  }
  
  #menuToggle {
@@ -314,6 +318,7 @@ table{
 }
 .info{
   align-items: center;
+  margin-left: 15%;
   
 }
 .info td{
@@ -321,10 +326,35 @@ table{
     padding-right: 300px;
   
 }
+
 th{
   background-color: #00008d;
 }
 .sekret2{
   align-items: center;
   margin-left: 28.5%;
+}
+
+.pozice-sponzor{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.sponzori{
+  
+    display: flex;
+    text-align: center;
+   
+    width: 100px;
+    align-items: center;
+    margin-left: 0%;
+
+  
+}
+.imgsponz{
+  width: 200px;
+  height: 200px;
+}
+.sponzor{
+  margin-left: 20px;
 }
