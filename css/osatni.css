@@ -246,6 +246,7 @@ footer {
   .imghrac{
     width: 300px;
     height: auto;
+    border-radius: 50px;
   }
   .hrac{
     border: #000000 10px;
@@ -342,11 +343,15 @@ table{
 }
 .sekret{
   align-items: center;
-  margin-left: 29%;
+  margin-left: 19%;
+  font-weight: 300;
+  font-size: 25px;
 }
 .info{
   align-items: center;
-  margin-left: 15%;
+  margin-left: 5%;
+  font-size: 25px;
+  font-weight: 300;
   
 }
 .info td{
@@ -360,7 +365,11 @@ th{
 }
 .sekret2{
   align-items: center;
-  margin-left: 28.5%;
+
+ 
+  margin-left: 18%;
+  font-weight: 300;
+  font-size: 25px;
 }
 
 .pozice-sponzor{
