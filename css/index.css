@@ -1,8 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00008d;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  background-color: #000000;
+  padding: 8px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+nav a {
+  color: #00007d;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #000068;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  filter: grayscale(100);
+}
+
+.social-links img:hover{
+  filter:grayscale(0);
+  transition: 1s all ease;
+}
+
+@media screen and (max-width: 620px) {
+  .nadpis-h2{
+    text-align: center;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: white 3px;
+  border-radius: 10px;
+  border-style: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  }
+  
+  header h1 {
+      font-size: 32px;
+  }
+
+  nav {
+      position: relative;
+  }
+
+  nav ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #000000;
+      flex-direction: column;
+  }
+
+  nav ul li {
+      text-align: center;
+  }
+
+  nav ul.show {
+      display: flex;
+  }
+
+  .menu-toggle {
+      display: block;
+      cursor: pointer;
+  }
+
+  .menu-toggle span {
+      display: block;
+      width: 30px;
+      height: 4px;
+      margin: 5px auto;
+      background-color: #ffffff;
+  }
+}
+
+
+
+
+
+
+
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+   
+      font: 12px/20px Arial,Helvetica,sans-serif;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:12px;
+      line-height:20px;
+      color:#666565;
+      position:relative;
+      width: 1900px;
+      background: #000;
+      margin-left:72px;
+   
 }
 header {
     background-color: #00008d;
