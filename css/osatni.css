@@ -1,4 +1,25 @@
 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+    line-height:20px;
+    color:#666565;
+    position:relative;
+    width: 1900px;
+    background: #000;
+    margin-left:72px;
+ 
+}
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -373,3 +394,4 @@ th{
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
