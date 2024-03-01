@@ -303,6 +303,12 @@ main h2{
  
   
 }
+.h3-arena{
+  text-transform: uppercase;
+  text-align: center;
+  color: #00d9ff;
+  font-size: 20px ;
+}
 
 .foot-a{
   color: white;
@@ -404,6 +410,24 @@ a{
   font-weight: 200;
   
 }
-.arena td{
-  
+.arena2{
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 25px;
+}
+article p{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 15px;
+}
+.a-showed{
+  color: white;
+  text-decoration: underline;
+}
+#arenaimg{
+  width: 800px;
+  height: auto;
+  margin-left: 28%;
+  margin-right: 20%;
 }
