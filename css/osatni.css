@@ -394,4 +394,16 @@ th{
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
+a{
+  color: white;
+  text-decoration: none;
+}
+.arena{
+  margin-left: 20%;
+  font-size: 40px;
+  font-weight: 200;
+  
+}
+.arena td{
+  
+}
