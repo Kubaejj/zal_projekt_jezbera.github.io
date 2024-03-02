@@ -243,42 +243,11 @@ footer {
 
  
 
-  .imghrac{
-    width: 300px;
-    height: auto;
-    border-radius: 50px;
-  }
-  .hrac{
-    border: #000000 10px;
-      border-style: solid;
-    width: 500px;
-    margin: 10px;
-    border-radius: 80px;
-    margin-left: 1px;
-    margin-right: 1px;
   
-   
-  }
-  .hrac:hover{
-    background-color: rgb(1, 42, 168);
-   border-radius: 80px;
+ 
 
-    background: #4568DC;  
-  background: -webkit-linear-gradient(to left, #00d9ff, #4568DC);  
-  background: linear-gradient(to left, #00d9ff, #4568DC); 
 
-   
-  } 
-
-  .hraci{
-    display: flex;
-    text-align: center;
-   
-    width: 100px;
-    align-items: center;
-    margin-left: 8%;
-
-  }
+ 
 
 main h2{
     text-align: center;
@@ -292,11 +261,11 @@ main h2{
   font-size: 28px;
 }
 .soupiska{
-  border: #e4dada 2px;
-  border-style: solid;
+
   margin-left: 35%;
   margin-right: 35%;
   border-radius: 80px;
+  
  
 }
 .h3-hrac{
@@ -318,8 +287,9 @@ main h2{
 
 .kadr{
   color: aliceblue;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 30px;
+  padding-right: 10px;
+
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -334,12 +304,12 @@ th{
 }
 table{
   text-align: center;
- 
+ padding-top: 20px;
  
 }
 #mainkadr{
   display: flex;
-  align-items: center;
+  
 }
 .sekret{
   align-items: center;
@@ -441,16 +411,162 @@ article p{
   margin-right: 20%;
 }
 
-header {
+
+
  
 
-  animation-name: header;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;  
-  
-}
+  header {
+ 
 
-@keyframes header {
-  0%   {background-color:rgb(0, 204, 255);  }
-}
+    animation-name: header;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+  }
+  
+  @keyframes header {
+    0%   {background-color:rgb(0, 204, 255); color: rgb(0, 51, 255); }
+  }
+  
+  h1 {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+     
+    }
+  }
+  
+  .undernews{
+  animation-name: undernews;
+  animation-duration: 2s;
+  
+  }
+  .undernews:hover{
+    transform: scale(1.1);
+  
+    
+  
+  }
+  
+  
+  /**/
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 1860px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    margin: auto;
+  }
+  .container .box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #000;
+    transition: 1.0s;
+    transform-style: preserve-3d;
+    overflow: hidden;
+    margin-right: 15px;
+    margin-top: 45px;
+    border-radius: 50px;
+  }
+  .container:hover .box {
+    transform: rotateY(10deg);
+  }
+  .container .box:hover ~ .box {
+    transform: rotateY(-10deg);
+  }
+  .container .box:hover {
+    transform: rotateY(0deg) scale(1.10);
+    z-index: 1;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+  }
+  .container .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: 10px;
+   
+  }
+  .container .box .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,rgb(115, 213, 255),#000);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+    mix-blend-mode: multiply;
+    
+  }
+  .container .box:hover .imgBx:before {
+    opacity: 1;
+  }
+  .container .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+  .container .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+    box-sizing: border-box;
+
+  }
+  .container .box .content h2 {
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(300px);
+    transition-delay: 0.3s;
+   
+  }
+  .container .box:hover .content h2 {
+    transform: translateY(0px);
+  }
+  .container .box .content p {
+    color: #fff;
+    transition: 0.5s;
+    font-size: 14px;
+    transform: translateY(200px);
+    transition-delay: 0.4s;
+  }
+  .container .box:hover .content p {
+    transform: translateY(0px);
+  }
+  .padding{
+    padding-bottom: 100px;
+  
+  }
