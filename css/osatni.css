@@ -440,3 +440,17 @@ article p{
   margin-left: 28%;
   margin-right: 20%;
 }
+
+header {
+ 
+
+  animation-name: header;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+  
+}
+
+@keyframes header {
+  0%   {background-color:rgb(0, 204, 255);  }
+}
